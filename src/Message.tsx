@@ -30,13 +30,13 @@ export const Message: React.FC<{}> = ({}) => {
 					direction={RevealDirection.Right}
 				/>
 			</Sequence>
-			<Sequence from={300} durationInFrames={100}>
+			<Sequence from={280} durationInFrames={100}>
 				<Grow message="GET VACCINATED" />
 			</Sequence>
-			<Sequence from={400} durationInFrames={100}>
-				<Grow message="STAY HOME" />
+			<Sequence from={380} durationInFrames={100}>
+				<Grow message="STAY SAFE" />
 			</Sequence>
-			<Sequence from={500} durationInFrames={videoConfig.durationInFrames}>
+			<Sequence from={480} durationInFrames={videoConfig.durationInFrames}>
 				<Grow message="#Unite2FightCorona" />
 			</Sequence>
 		</div>
